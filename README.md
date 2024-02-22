@@ -30,7 +30,7 @@ php artisan serve
 npm run dev
 ```
 ### Result Page  Without Discount Code
-<img src="https://preview.ibb.co/MnG4xdn/nodiscount.png"/>
+<img src="https://i.ibb.co/MnG4xdn/nodiscount.png"/>
 
 ### Result Page  With Discount Code FA111
 <img src="https://i.ibb.co/G2YSfMc/fa111.png"/>
