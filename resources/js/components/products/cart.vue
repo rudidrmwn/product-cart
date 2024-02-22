@@ -27,7 +27,7 @@
                 <td class="text-right font-weight-semibold align-middle p-4">Rp.{{ formatPrice(cart.price) }}</td>
                 <td class="align-middle p-4"><input type="number"  min="0" max="1000" @keypress="disableDot" v-model="cart.qty" class="form-control text-center"></td>
                 <td class="text-right font-weight-semibold align-middle p-4">Rp.{{ calculatePrice(cart) }}</td>
-                <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
+                <td class="text-center align-middle px-0"><a href="#" v-on:click="deleteCart(cart.id)" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
             </tr>
         </tbody>
         </table>
@@ -109,13 +109,10 @@ export default {
                 .catch(error => console.log(error))
         },
         deleteCart(id) {
-            axios.delete(`/api/cart/${id}`)
-            .then(response => {
-                console.log(`Deleted post with ID ${id}`);
-            })
-            .catch(error => {
-                console.error(error);
-            });
+            axios.get('/api/cart/'+ id)
+                .then(res => res.json())
+                .catch(error => console.error('Error:', error))
+                .then(response => console.log('Success:', response))
         },
         calculatePrice(cart) {
             let total = 0;
