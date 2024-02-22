@@ -30,16 +30,16 @@ php artisan serve
 npm run dev
 ```
 ### Result Page  Without Discount Code
-<img src="https://i.ibb.co/MnG4xdn/nodiscount.png"/>
+<img src="https://overweening-officia.000webhostapp.com/nodiscount.png"/>
 
 ### Result Page  With Discount Code FA111
 <img src="https://overweening-officia.000webhostapp.com/fa111.png"/>
 
 ### Result Page  With Discount Code FA222
-<img src="https://i.ibb.co/fD0DgXN/fa222.png"/>
+<img src="https://overweening-officia.000webhostapp.com/fa222.png"/>
 
 ### Result Page  With Discount Code FA333
-<img src="https://i.ibb.co/BcKHL9n/fa333.png"/>
+<img src="https://overweening-officia.000webhostapp.com/fa333.png"/>
 
 ### Result Page  With Discount Code FA444
-<img src="https://i.ibb.co/WGdz1cW/fa444.png"/>
+<img src="https://overweening-officia.000webhostapp.com/fa444.png"/>
