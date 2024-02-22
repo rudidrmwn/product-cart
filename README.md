@@ -5,7 +5,6 @@ composer install
 npm install
 ```
 
-### Executing program
 
 ### Setup Environment Variable
 ```
