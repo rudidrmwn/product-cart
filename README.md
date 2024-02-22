@@ -29,6 +29,9 @@ php artisan db:seed
 php artisan serve   
 npm run dev
 ```
+
+https://overweening-officia.000webhostapp.com/Laravel.mp4
+
 ### Result Page  Without Discount Code
 <img src="https://overweening-officia.000webhostapp.com/nodiscount.png"/>
 
